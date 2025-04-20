@@ -44,6 +44,9 @@ This is a backend-only endpoint. **No content is served** directly if you visit 
 
 ### 🔐 Step 1: Install SSL Certificate Patch (REQUIRED)
 
+> ⚠️ **NOTE: THIS WILL FACTORY RESET YOUR CHUMBY!**  
+> All previous settings and data will be erased. Only proceed if you’re okay with this.
+
 1. Format your USB stick as **FAT32**.
 2. Download the latest `patchupdate.zip` from the [Releases](https://github.com/wicorn29/chumbite-cfw/releases) section.
 3. Extract the contents of `patchupdate.zip` to the **root** of your USB drive.
