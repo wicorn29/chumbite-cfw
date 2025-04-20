@@ -48,22 +48,25 @@ This is a backend-only endpoint. **No content is served** directly if you visit 
 > All previous settings and data will be erased. Only proceed if you’re okay with this.
 
 1. Format your USB stick as **FAT32**.
-2. Download the latest `patchupdate.zip` from the [Releases](https://github.com/wicorn29/chumbite-cfw/releases) section.
+2. Download the latest `patchupdate.zip` from the [Releases](https://github.com/wicorn29/chumbite-cfw/releases/latest) section.
 3. Extract the contents of `patchupdate.zip` to the **root** of your USB drive.
 4. Power off your Chumby.
-5. Plug in the USB and boot into **Chumby Recovery Mode**:
-   - Press and hold the **snooze** button on top while plugging in power.
-   - Select **"Install update from USB"** when the menu appears.
-6. Wait for installation to complete, then remove the USB and reboot.
+5. **Enter Recovery Mode**:
+   - Hold the touchscreen while powering on the device.
+   - Wait for the **Special Options** screen.
+6. Select:
+   - `Install Updates` > `Install from USB Flash Drive`
+7. Wait for installation to complete, then set up your chumby.
+8. Turn chumby off.
 
 ---
 
 ### 📥 Step 2: Install Chumbite Firmware
 
 1. Format the USB stick again (FAT32).
-2. Download `chumbite.zip` from the [Releases](https://github.com/wicorn29/chumbite-cfw/releases).
+2. Download `chumbite.zip` from the [Releases](https://github.com/wicorn29/chumbite-cfw/releases/latest).
 3. Extract the contents of `chumbite.zip` to the **root** of the USB stick.
-4. Insert USB into Chumby Classic and reboot.
+4. Insert USB into Chumby Classic and power it on.
 5. Chumbite will boot automatically.
 
 ---
