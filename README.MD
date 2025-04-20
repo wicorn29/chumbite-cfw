@@ -74,6 +74,7 @@ This is a backend-only endpoint. **No content is served** directly if you visit 
   - Power off the device.
   - Remove the USB stick.
   - Power it on again — it will resume where it left off before Chumbite.
+- If you want to load up chumbite again, repeat these steps but insert your chumbite usb stick.
 
 ---
 
