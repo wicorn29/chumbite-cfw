@@ -1,7 +1,7 @@
 #!/bin/sh
 #
 # Note
-# Edit Pitt+Meadows+BC to whatever country and city code you want to get local weather/Change 71775 to your local station code.
+# Edit Portland+Oregon to whatever country and city code you want to get local weather/Change 71775 to your local station code.
 # Make sure the forecast is pulled up when you visit both URLs below to ensure that it works ok. Weather is updated every hour.
 # v11 onwards now include a black box if your chumby hangs. post the contents of blackbox.txt and orangebox.txt up when reporting crashes or hangs.
 # For USA only the codes can be found as follows :
@@ -61,7 +61,7 @@ if [ ! -e /tmp/zwapi.lock ]; then
 		rm -f /tmp/anim.gif
 		sync
 		# MODIFY THE LINES BELOW FOR THE WEATHER ONLY. DO NOT MODIFY ANY OF THE REST OF THE FILE. ENSURE THE URLS WORK BY GOING TO YOUR WEB BROWSER AND LOADING THEM.
-		curl --silent --output /tmp/zwapi.html "http://m.wund.com/cgi-bin/findweather/getForecast?brand=mobile&query=Pitt+Meadows+BC"
+		curl --silent --output /tmp/zwapi.html "http://m.wund.com/cgi-bin/findweather/getForecast?brand=mobile&query=Portland+Oregon"
 		curl --silent --output /tmp/x "http://rss.wunderground.com/auto/rss_full/global/stations/71775.xml?units=both"
 		curl --silent --output /tmp/0.png "https://radar.weather.gov/ridge/lite/N0R/ATX_7.png"
 		curl --silent --output /tmp/1.png "https://radar.weather.gov/ridge/lite/N0R/ATX_6.png"
@@ -71,6 +71,7 @@ if [ ! -e /tmp/zwapi.lock ]; then
 		curl --silent --output /tmp/5.png "https://radar.weather.gov/ridge/lite/N0R/ATX_2.png"
 		curl --silent --output /tmp/6.png "https://radar.weather.gov/ridge/lite/N0R/ATX_1.png"
 		curl --silent --output /tmp/7.png "https://radar.weather.gov/ridge/lite/N0R/ATX_0.png"
+
 		# STOP MODIFYING BELOW THIS LINE. DO NOT MODIFY ANY OF THE REST OF THE FILE.
 		#curl --silent --output /tmp/anim.gif "http://radar.weather.gov/ridge/lite/N0R/ATX_loop.gif"
 		#sed 's!<link>.*</link>!!g' /tmp/x > /tmp/x2
