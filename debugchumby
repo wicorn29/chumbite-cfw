@@ -13,7 +13,7 @@ LD_LIBRARY_PATH=/mnt/usb/lighty/lib:${LD_LIBRARY_PATH} /mnt/usb/lighty/sbin/ligh
 if [ -f /mnt/usb/autoreboot.on ]; then
 
 	# Play startup sound
-	madplay /mnt/usb/sfx/boot.mp3
+	aplay /mnt/usb/sfx/boot.wav
 	
 	# Sanity
 	sleep 3
@@ -36,7 +36,7 @@ else
 	sync
 
 	# Play startup sound
-	madplay /mnt/usb/sfx/boot.mp3
+	aplay /mnt/usb/sfx/boot.wav
 	
 	# Sanity
 	sleep 3
