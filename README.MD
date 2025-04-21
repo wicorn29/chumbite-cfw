@@ -1,3 +1,4 @@
+[![Chumbite Logo](https://github.com/wicorn29/chumbite-cfw/blob/master/marketing/cbite.png)
 # Chumbite by Wicorn29
 
 > Loosely based on Zurk’s offline firmware.  
