@@ -1,5 +1,5 @@
 <a href="https://github.com/wicorn29/chumbite-cfw">
-  <img src="https://github.com/wicorn29/chumbite-cfw/blob/master/marketing/cbite.png?raw=true" alt="Chumbite Logo" width="50" height="50">
+  <img src="https://github.com/wicorn29/chumbite-cfw/blob/master/marketing/cbite.png?raw=true" alt="Chumbite Logo" width="100" height="100">
 </a>
 
 # Chumbite by Wicorn29
